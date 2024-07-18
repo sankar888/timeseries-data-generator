@@ -1,0 +1,5 @@
+# Letting git decide whether a file contains text or it is binary
+# If a file is found to be text line ending is converted to LF
+# If you change any line below, please run command: "git add --renormalize ."
+# To debug line endings use command: "git ls-files --eol"
+* text=auto eol=lf
